@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply text-gray-600 hover:text-accent cursor-pointer transition-colors;
+  }
+
+  .mobile-nav-link {
+    @apply block px-3 py-2 text-base font-medium text-gray-600 hover:text-accent cursor-pointer;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-sans;
+}

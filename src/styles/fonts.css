@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("../font/myfont.otf") format("opentype");
+  font-weight: lighter;
+  font-style: italic;
+}
+@font-face {
+  font-family: "MyNormalFont";
+  src: url("../font/normalfont.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "roboto-slab";
+  src: url("../font/RobotoSlab-Regular.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "headerOne";
+  src: url("../font/LeagueSpartan-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "headerTwo";
+  src: url("../font/TitilliumWeb-Bold.ttf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "manrope";
+  src: url("../font/Manrope-Regular.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
