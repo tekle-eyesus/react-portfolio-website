@@ -51,8 +51,6 @@ const Skills = () => {
               <li>Express.js</li>
               <li>Next.js</li>
               <li>Vue.js</li>
-              <li>Angular</li>
-              <li>Django</li>
             </ul>
           </div>
 
@@ -70,9 +68,9 @@ const Skills = () => {
               <li>PostgreSQL (SQL)</li>
               <li>Firebase</li>
               <li>SQLite</li>
-              <li>Redis</li>
+
               <li>GraphQL</li>
-              <li>Sequelize (ORM)</li>
+
               <li>Database Optimization</li>
             </ul>
           </div>

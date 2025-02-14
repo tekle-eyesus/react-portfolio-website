@@ -33,7 +33,7 @@ const Hero = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className='text-5xl font-extrabold sm:font-extrabold md:text-6xl lg:text-[121px] font-bold md:font-extrabold mb-4 dark:text-gray-300 text-white'>
+            <h1 className='text-5xl  sm:font-extrabold md:text-6xl lg:text-[121px] font-bold md:font-extrabold mb-4 dark:text-gray-300 text-white'>
               TEKLEEYESUS MUNYE
             </h1>
             <h1 className='text-4xl sm:text-5xl md:text-5xl font-bold mb-4 text-white dark:text-gray-300 font-header2'>
@@ -46,12 +46,16 @@ const Hero = () => {
               needs and deliver exceptional experiences.
             </p>
             <div className='flex space-x-4'>
-              <button className='bg-gray-700 text-yellow-500 px-3 py-4 rounded-[6px] hover:bg-gray-600 transition-all duration-300 font-manrope'>
-                View Projects
-              </button>
-              <button className='bg-gray-700 font-manrope text-yellow-500 px-3 py-4 rounded-[6px] hover:bg-gray-600 transition-all duration-300'>
-                Contact Me
-              </button>
+              <a href='#projects'>
+                <button className='bg-gray-700 text-yellow-500 px-3 py-4 rounded-[6px] hover:bg-gray-600 transition-all duration-300 font-manrope'>
+                  View Projects
+                </button>
+              </a>
+              <a href='#contact'>
+                <button className='bg-gray-700 font-manrope text-yellow-500 px-3 py-4 rounded-[6px] hover:bg-gray-600 transition-all duration-300'>
+                  Contact Me
+                </button>
+              </a>
             </div>
           </motion.div>
 
@@ -65,9 +69,9 @@ const Hero = () => {
             {/* Image container */}
             <div className='md:relative'>
               <img
-                src='/myimage2.png'
+                src='/man.png'
                 alt='Tekleeyesus Munye'
-                className='hidden md:block md:w-[420px] lg:w-[490px] rounded-sm z-0 relative'
+                className='hidden md:block md:w-[420px] lg:w-[550px] mt-6 rounded-sm z-0 relative'
               />
               {/* Decorative Name Behind Image
               <h1 className='absolute inset-0 -z-0 text-9xl font-extrabold text-white opacity-20 leading-[1]'>
@@ -104,42 +108,40 @@ const Hero = () => {
                 <div className='flex space-x-1 items-center justify-start'>
                   {/* <FaFlutter className='text-blue-900' /> */}
                   <div className='flex items-center space-x-1 justify-between'>
-                    <FaFlutter className='text-blue-900' />
-
-                    <h4 className='text-xs font-roboto  text-blue-900 dark:text-gray-200'></h4>
+                    <FaFlutter className='text-blue-200' />
                     <h4 className='text-xs font-roboto  text-blue-900 dark:text-gray-200 flex items-center gap-1'>
                       <span>
-                        <FaReact className='text-blue-900 text-lg' />
+                        <FaReact className='text-blue-200 text-lg' />
                       </span>
                     </h4>
                     <h4 className='text-xs font-roboto  text-blue-900 dark:text-gray-200 flex items-center gap-1'>
                       <span>
-                        <FaNodeJs className='text-blue-900 text-lg' />
+                        <FaNodeJs className='text-blue-200 text-lg' />
                       </span>
                     </h4>
                     <h4 className='text-xs font-roboto  text-blue-900 dark:text-gray-200 flex items-center gap-1'>
                       <span>
-                        <SiMongodb className='text-blue-900 text-lg' />
+                        <SiMongodb className='text-blue-200 text-lg' />
                       </span>
                     </h4>
                     <h4 className='text-xs font-roboto  text-blue-900 dark:text-gray-200 flex items-center gap-1'>
                       <span>
-                        <FaJava className='text-blue-900 text-lg' />
+                        <FaJava className='text-blue-200 text-lg' />
                       </span>
                     </h4>
                     <h4 className='text-xs font-roboto  text-blue-900 dark:text-gray-200 flex items-center gap-1'>
                       <span>
-                        <FaGit className='text-blue-900 text-lg' />
+                        <FaGit className='text-blue-200 text-lg' />
                       </span>
                     </h4>
                     <h4 className='text-xs font-roboto  text-blue-900 dark:text-gray-200 flex items-center gap-1'>
                       <span>
-                        <FaGithub className='text-blue-900 text-lg' />
+                        <FaGithub className='text-blue-200 text-lg' />
                       </span>
                     </h4>
                     <h4 className='text-xs font-roboto  text-blue-900 dark:text-gray-200 flex items-center gap-1'>
                       <span>
-                        <FaFigma className='text-blue-900 text-lg' />
+                        <FaFigma className='text-blue-200 text-lg' />
                       </span>
                     </h4>
                   </div>

@@ -3,56 +3,37 @@ import { motion } from "framer-motion";
 
 const allProjects = [
   {
-    title: "E-commerce Platform",
+    title: "FindBet - House Rental App",
     description:
-      "A full-stack e-commerce solution built with React and Node.js",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuYPPTbPkU044k7PBWrIXE4O9v7Ay8Zn_zeg&s",
-    tags: ["React", "Node.js", "MongoDB"],
+      "A mobile app built with Flutter and Firebase for house rental and buying.",
+    image: "/project1.png",
+    tags: ["Flutter", "Firebase"],
     link: "#",
   },
   {
-    title: "Social Media App",
-    description: "Mobile app built with React Native and Firebase",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvNTcluNXS4CzylBxM2C-tvGXaohWtTZ4qNA&s",
-    tags: ["React Native", "Firebase"],
-    link: "#",
-  },
-  {
-    title: "Portfolio Website",
+    title: "FindInfo - City Resources App",
     description:
-      "A personal portfolio website built with React and Tailwind CSS",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvNTcluNXS4CzylBxM2C-tvGXaohWtTZ4qNA&s",
-    tags: ["React", "Tailwind CSS"],
+      " A mobile app that allows users to get city resources and information like hospitals, schools, and more.",
+    image: "/project2.png",
+    tags: ["Google Map API", "Flutter", "Firebase"],
     link: "#",
   },
   {
-    title: "Task Management App",
-    description: "A task management app built with React and Firebase",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvNTcluNXS4CzylBxM2C-tvGXaohWtTZ4qNA&s",
-    tags: ["React", "Firebase"],
+    title: "Socialize - Social App",
+    description:
+      " A minimalisic social app for tech professionals to share their ideas and connect with each other.",
+    image: "/project3.png",
+    tags: ["Real Time Chat", "Insights", "Flutter"],
     link: "#",
   },
   {
-    title: "Blog Platform",
-    description: "A blog platform built with Next.js and Markdown",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvNTcluNXS4CzylBxM2C-tvGXaohWtTZ4qNA&s",
-    tags: ["Next.js", "Markdown"],
+    title: "ChatAI - Chatbot App",
+    description:
+      "A Chatbot app that helps users with their queries and questions with gemini ai.",
+    image: "/project4.png",
+    tags: ["Flutter", "Gemini"],
     link: "#",
   },
-  {
-    title: "E-learning Platform",
-    description: "An e-learning platform built with MERN stack",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvNTcluNXS4CzylBxM2C-tvGXaohWtTZ4qNA&s",
-    tags: ["MongoDB", "Express", "React", "Node.js"],
-    link: "#",
-  },
-  // Add more projects here
 ];
 
 const Projects = () => {
@@ -86,14 +67,14 @@ const Projects = () => {
           </p>
         </motion.div>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 '>
           {allProjects.slice(0, visibleProjects).map((project, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className='bg-[#afc3c2]/20 dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow'
+              className='bg-[#afc3c2]/20 dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow hover:border border-yellow-500/60 cursor-pointer'
             >
               <img
                 src={project.image}

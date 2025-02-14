@@ -3,45 +3,37 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    company: "Tech Company A",
-    role: "Senior Developer",
+    company: "Self Employed",
+    role: "Software Engineer",
     period: "2020 - Present",
     description:
-      "Led development of multiple web and mobile applications, managed team of 5 developers.",
-    technologies: ["React", "Node.js", "AWS"],
+      "Working on various freelance projects, building web and mobile applications for clients.",
+    technologies: ["React", "Node.js", "MongoDB", "Flutter", "Firebase"],
   },
   {
-    company: "Startup B",
-    role: "Full Stack Developer",
-    period: "2018 - 2020",
+    company: "Forage",
+    role: "Frontend Developer-job simmulation",
+    period: "Sep 2023",
     description:
-      "Developed and maintained various client projects, implemented new features and optimizations.",
-    technologies: ["React Native", "Firebase", "MongoDB"],
-  },
-  {
-    company: "Freelance",
-    role: "Software Engineer",
-    period: "2015 - 2018",
-    description:
-      "Worked on diverse software development projects for clients, focusing on web applications and automation.",
-    technologies: ["JavaScript", "Python", "SQL"],
+      "Worked on the frontend of a job simulation platform, focusing on React and Redux.",
+    technologies: ["React", "Javascript"],
   },
 ];
 
 const education = [
   {
-    school: "University A",
-    degree: "B.Sc. in Computer Science",
-    period: "2012 - 2016",
+    school: "Bahir Dar University",
+    degree: "B.Sc. in Software Engineering",
+    period: "Aug 2022 - Present",
     description:
-      "Graduated with honors, specializing in software engineering and algorithm design.",
+      "Currently pursuing a degree in Software Engineering with a focus on web and mobile development.",
   },
   {
-    school: "High School B",
-    degree: "High School Diploma",
-    period: "2008 - 2012",
+    school: "FreeCodeCamp",
+    degree: "Backend Development and APIs",
+    period: "sep 2024 - Dec 2024",
     description:
-      "Focused on science and mathematics with a passion for coding.",
+      "Completed a certification in backend development and APIs, covering Node.js, Express, and MongoDB.",
   },
 ];
 
@@ -137,7 +129,7 @@ const ExperienceAndEducation = () => {
                     <p className='text-gray-500 dark:text-yellow-400/60 text-sm mb-3 font-roboto'>
                       {edu.period}
                     </p>
-                    <p className='text-gray-600 font-roboto dark:text-gray-400'>
+                    <p className='text-gray-600 font-manrope dark:text-gray-400'>
                       {edu.description}
                     </p>
                   </div>
