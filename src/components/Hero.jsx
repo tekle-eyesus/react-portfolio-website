@@ -84,9 +84,9 @@ const Hero = () => {
                 <div className='flex space-x-2 items-center'>
                   {/* <img src='' alt='' /> */}
                   <img
-                    src='./myimage2.png'
+                    src='./propic.png'
                     alt=''
-                    className='w-[45px] h-[45px] rounded-full border-blue-800 border-2'
+                    className='w-[45px] h-[45px] rounded-full border-blue-500 border-2'
                   />
                   <div className='text-sm '>
                     <h3 className='text-gray-600 dark:text-gray-200 italic'>
