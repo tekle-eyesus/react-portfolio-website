@@ -24,7 +24,7 @@ import { FaFlutter, FaX } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <section className=' md:max-h-screen pt-6 flex items-center bg-[#afc3c2] relative dark:bg-gray-900 transition-colors duration-300'>
+    <section className='md:max-h-screen pt-6 flex items-center bg-[#afc3c2] relative dark:bg-gray-900 transition-colors duration-300'>
       <div className='pt-[100px] sm:pt-32 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 md:py-12  '>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center relative'>
           {/* Left Text Section   bg-[#cfdbdb] */}
@@ -45,7 +45,7 @@ const Hero = () => {
               functional, and user-friendly applications that meet real-world
               needs and deliver exceptional experiences.
             </p>
-            <div className='flex space-x-4'>
+            <div className='mb-10 sm:mb-0 flex space-x-4'>
               <a href='#projects'>
                 <button className='bg-gray-700 text-yellow-500 px-3 py-4 rounded-[6px] hover:bg-gray-600 transition-all duration-300 font-manrope'>
                   View Projects
@@ -64,7 +64,7 @@ const Hero = () => {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className='relative h-[440px]'
+            className='hidden sm:block relative h-[440px]'
           >
             {/* Image container */}
             <div className='md:relative'>
