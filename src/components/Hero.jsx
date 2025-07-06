@@ -31,8 +31,7 @@ const Hero = () => {
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5 }}
-          >
+            transition={{ duration: 0.5 }}>
             <h1 className='text-5xl  sm:font-extrabold md:text-6xl lg:text-[121px] font-bold md:font-extrabold mb-4 dark:text-gray-300 text-white'>
               TEKLEEYESUS MUNYE
             </h1>
